@@ -346,4 +346,4 @@ if st.button("Calcular Sueldo"):
     neto = total_remunerativo - descuentos + total_bonos
 
     st.text_area("Desglose:", desglose_items, height=200)
-    st.markdown("### 🧾 Neto estimado: ${neto:,.2f}")
+    st.markdown(f"### 🧾 Neto estimado: ${neto:,.2f}")
